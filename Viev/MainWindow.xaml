@@ -1,0 +1,20 @@
+﻿<Window x:Class="Viev.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Viev"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="NameText" HorizontalAlignment="Left" Height="30" Margin="120,43,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Width="646" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="CodeOneC" HorizontalAlignment="Left" Height="30" Margin="120,87,0,0" TextWrapping="Wrap" Text="Код" VerticalAlignment="Top" Width="646"/>
+        <TextBox x:Name="Articul" HorizontalAlignment="Left" Height="30" Margin="120,129,0,0" TextWrapping="Wrap" Text="Артикул" VerticalAlignment="Top" Width="646"/>
+        <TextBox x:Name="Quantity" HorizontalAlignment="Left" Height="30" Margin="120,170,0,0" TextWrapping="Wrap" Text="количество" VerticalAlignment="Top" Width="443"/>
+        <TextBox x:Name="ComentText" HorizontalAlignment="Left" Height="79" Margin="120,254,0,0" TextWrapping="Wrap" Text="Коментарий" VerticalAlignment="Top" Width="646"/>
+        <TextBox x:Name="QuantSI" HorizontalAlignment="Left" Height="30" Margin="581,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
+        <Button x:Name="AddButton" Content="Добавить" HorizontalAlignment="Left" Height="44" Margin="204,346,0,0" VerticalAlignment="Top" Width="490" Click="AddButton_Click"/>
+        <TextBox x:Name="Address" HorizontalAlignment="Left" Height="30" Margin="120,211,0,0" TextWrapping="Wrap" Text="Адрес полки" VerticalAlignment="Top" Width="646"/>
+
+    </Grid>
+</Window>
